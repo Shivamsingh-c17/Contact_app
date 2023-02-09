@@ -1,50 +1,93 @@
-# Contact_app
-The prime objective of this project is to add contacts, store, edit/ Update and delete unnecessary contacts.
-For React Summer Traning 
+# About
+In this appliication user can add a contact, delete, update amd serach a contact. For storing data I have used a JSON server which is connected to the application.
 
-Title of the project: Contact Management System
-The objective of the project
-The prime objective of this project is to add contacts, store, edit/ Update and delete unnecessary
-contacts.
-Language and software tool usedNode JS, React JS, Semantic UI (Library for CSS)
-Software Used - React and Visual studio code
-Structure of the project and its usesThis whole project is created using React Js which uses the different functions to store, write, edit,
-add, and delete features in the contact list. This web app will help to store contacts locally.
+Screen-shots:
 
-Uses
-1. Simple easy and one click uses.
-2. Can be access from any device.
-3. You can edit , add, delete, change the contact list in the page.
+- List of all the contacts
+<img src="https://user-images.githubusercontent.com/46750877/147806092-e7bf76d2-14cd-4488-bcb6-a50ae6e78ae6.PNG" height="300" width="800">
 
-Limits
-• It is mandatory to enter all data fields in while creating contacts
-• Search feature only works when correct keywords are used
+- Can add the contacts 
+<img src="https://user-images.githubusercontent.com/46750877/147806096-f1e29b8c-2cfc-4076-a524-7f78b1933265.PNG" height="300" width="800">
 
-FEASIBILITY STUDY OF THE PROJECT
-Need or why do we require this kind of application?
-• A contact list can be used for forming social networks, distribution lists and contact networks.
-Information about users is readily available in existing contact lists, and can be tailored to suit
-different needs. For organizations or sales, a contact list adds to the capacity and a strong resource
-for communication.
+- Can edit the contacts
+<img src="https://user-images.githubusercontent.com/46750877/147806095-b2cdcc0d-d3b4-4839-809e-2a791a8284e5.PNG" height="300" width="800">
 
-Methodology
-The main objective of this project was to create a well-structured web app for
-utilizing and making the most of our or anyone’s life.
-If there is an organized layout of what we do in our daily lives then consistency can
-be achieved very easily.
-Module and Team member wise distribution of work
-We have been a very consistent team working on this project together .
-With the guidance and constant motivation of our respected teacher we have been able to
-make this mini project using all our resources and within the given time bound.
-Shivam Singh has been working on the features of this project since day 1.
-Shivam Dev and shivam Garg have been consistently monitoring design and frontend to make
-web app more and more user friendly.
-Shivam Dev & Shivam Singh also has been doing his part with the contribution in making of
-the ppt and synopsis of the project so that we can describe this better to the monitoring team.
-InnovationsWe have tried to make the UI or user interface of this app look as cleaner and user friendly
-by using Semantic Ui
-This app is comparatively very light and easy to interact.
-Software Requirements
-Software required :
-1. Visual Studio Code
-2. Node Js (npm)
+- Searching of the contact
+<img src="https://user-images.githubusercontent.com/46750877/147806094-8d322275-6bb5-4edb-8bef-3d44d73df7e0.PNG" height="300" width="800">
+
+- The contacts that appear on the list are stored in this JSON file and if we add a contact from app then it will also be added in the JSON file and edit works the same.
+
+![apiJSON](https://user-images.githubusercontent.com/46750877/147806091-4053ed19-a28a-4a7d-b7a9-105299418de2.PNG)
+
+
+
+# Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
